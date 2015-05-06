@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="head_photo">
+        <item>@drawable/p1</item>
+        <item>@drawable/p2</item>
+        <item>@drawable/p3</item>
+        <item>@drawable/p4</item>
+        <item>@drawable/p5</item>
+        <item>@drawable/p6</item>
+        <item>@drawable/p7</item>
+        <item>@drawable/p8</item>
+        <item>@drawable/p9</item>
+        <item>@drawable/p10</item>    
+    </array>
+    
+    <string-array name="article">
+        <item>@string/p1</item>
+        <item>@string/p2</item>
+        <item>@string/p3</item>
+        <item>@string/p4</item>
+        <item>@string/p5</item>
+        <item>@string/p6</item>
+        <item>@string/p7</item>
+        <item>@string/p8</item>
+        <item>@string/p9</item>
+        <item>@string/p10</item>
+    </string-array>
+    
+    <string-array name="name">
+        <item>潇潇夜雨</item>
+        <item>小小</item>
+        <item>青春无悔</item>
+        <item>小丸子</item>
+        <item>黑桃Q</item>
+        <item>格子衫小帅气</item>
+        <item>幸福麦田圈</item>
+        <item>无影随行</item>
+        <item>奇迹</item>
+        <item>归来</item> 
+    </string-array>
+    
+
+</resources>

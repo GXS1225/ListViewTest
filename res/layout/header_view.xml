@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="75px"
+        android:gravity="center">
+        <TextView 
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下拉刷新"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView 
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间：刚刚"
+            android:textSize="14sp"
+            android:layout_below="@id/text"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"/>
+        <ImageView 
+            android:id="@+id/pull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pull_down"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/text1"/>
+        <ProgressBar 
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/text1"/>
+    </RelativeLayout>
+</LinearLayout>
